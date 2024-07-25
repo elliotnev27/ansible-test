@@ -1,6 +1,6 @@
 ---
 - name: Say Hello
-  hosts: localhost
+  hosts: all
   gather_facts: false
 
   tasks:
