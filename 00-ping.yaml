@@ -1,0 +1,8 @@
+---
+- name: Say Hello
+  gather_facts: false
+
+  tasks:
+    - name: Print Hello
+      command:
+        cmd: echo "Hello"
