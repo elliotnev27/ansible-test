@@ -1,5 +1,6 @@
 ---
 - name: Say Hello
+  hosts: localhost
   gather_facts: false
 
   tasks:
